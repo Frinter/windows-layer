@@ -3,8 +3,6 @@
 
 #include "mutex.hh"
 
-using System::Mutex;
-
 class WindowsMutex : public Mutex
 {
 public:
